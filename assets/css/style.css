@@ -1,0 +1,31 @@
+body {
+    background-image: url("../images/film\ background.jpeg");
+    font-family: 'Megrim', cursive;
+}
+.container {
+    background-color: tan;
+    background: rgba(0,0,0,.8);
+    text-align: center;
+}
+h1 {
+    color: whitesmoke;
+    font-size: 100px;
+}
+#timer, #game-play {
+    font-size: 40px;
+    color: whitesmoke;
+}
+#game-play {
+    height: 500px;
+}
+.answer:hover {
+    background-color: white;
+    color: darkgray;
+}
+.answer-image, .start-pic {
+    padding: 20px;
+}
+/* font-family: 'Source Code Pro', monospace;
+font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Megrim', cursive; */
