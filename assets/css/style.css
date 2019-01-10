@@ -29,3 +29,14 @@ h1 {
 font-family: 'Amatic SC', cursive;
 font-family: 'Poiret One', cursive;
 font-family: 'Megrim', cursive; */
+@media screen and (max-width:640px){
+    .start-pic{
+        height: 300px;
+    }
+    .answer-image {
+        height: 150px;
+    }
+    .answer:hover {
+        background-color: none;
+    }
+}
