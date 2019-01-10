@@ -18,17 +18,17 @@ h1 {
 #game-play {
     height: 500px;
 }
+@media(hover: hover){
+
 .answer:hover {
     background-color: white;
-    color: darkgray;
+    color: darkred;
 }
 
 .answer-image, .start-pic {
     padding: 20px;
 }
-@media(hover: none){
-    .answer:hover {color: inherit;}
-}
+
 /* font-family: 'Source Code Pro', monospace;
 font-family: 'Amatic SC', cursive;
 font-family: 'Poiret One', cursive;
