@@ -53,7 +53,7 @@ var questions = [
         image: "assets/images/true romance.gif"
     },
     {
-        question: "Who was played the lead in 'Rebel Without a Cause'?",
+        question: "Who played the lead in 'Rebel Without a Cause'?",
         answer1: "Marlon Brando",
         answer2: "Steve McQueen",
         answer3: "James Dean",
@@ -101,6 +101,16 @@ var questions = [
         correctAns: "Steve McQueen",
         correctAnsIndex: 2,
         image: "assets/images/mcqueen.gif"
+    },
+    {
+        question: "What was the name of the insurance salesman in 'Groundhog Day'?",
+        answer1: "Tim Myers",
+        answer2: "Ned Ryerson",
+        answer3: "Toby Flenderson",
+        answer4: "Robert Redford",
+        correctAns: "Sturgil McCuthers",
+        correctAnsIndex: 2,
+        image: "assets/images/groundhogday.gif"
     },
     {
         question: "Where was Audrey Hepburn born?",
