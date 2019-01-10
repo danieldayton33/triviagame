@@ -6,6 +6,7 @@ var startTime;
 var countAmt; 
 var interval;
 var questionIndex = 0;
+var qIndex = 0;
 var answerChoosen = false;
 var questionAdded = false;
 var gameFinished = false;
@@ -214,7 +215,7 @@ $(document).ready(function() {
             $(".answer").on("click", function(){
                 if(questionAdded && !answerChoosen){
                 clearInterval(interval);
-                var qIndex;
+                
                 var playerAnswer = $(this);
                 // $("#game-play").empty();
                 qIndex = parseInt(playerAnswer.attr('index'));
