@@ -203,7 +203,7 @@ $(document).ready(function() {
             $("#timer").empty();
             clearDivs();
             var resetButton = $("<div>");
-            resetButton.addClass("button");
+            resetButton.addClass("button col-centered");
             resetButton.text("Retry");
             $("#question").text("That's the end of the game!");
             $("#answer").text("Correct Answers: " + rightAnswers);
@@ -272,7 +272,7 @@ $(document).ready(function() {
 function startGame (){
     if(!gameStarted){
     var startDiv = $("<div>");
-    startDiv.addClass("button");
+    startDiv.addClass("button col-centered");
     startDiv.text("Start");
     var gamePlay = $("#question");
     var theaterPic = $("<img>");

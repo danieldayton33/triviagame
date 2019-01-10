@@ -7,6 +7,12 @@ body {
     background: rgba(0,0,0,.8);
     text-align: center;
 }
+.button {
+    width: 200px;
+    float: none;
+    margin: 0 auto;
+}
+
 h1 {
     color: whitesmoke;
     font-size: 100px;
@@ -18,11 +24,16 @@ h1 {
 #game-play {
     height: 500px;
 }
+
 @media(hover: hover){
 
 .answer:hover {
     background-color: white;
     color: darkred;
+}
+.button:hover {
+    background-color: darkred;
+    color: whitesmoke;
 }
 }
 
