@@ -107,8 +107,8 @@ var questions = [
         answer1: "Tim Myers",
         answer2: "Ned Ryerson",
         answer3: "Toby Flenderson",
-        answer4: "Robert Redford",
-        correctAns: "Sturgil McCuthers",
+        answer4: "Sturgil McCuthers",
+        correctAns: "Ned Ryerson",
         correctAnsIndex: 2,
         image: "assets/images/groundhogday.gif"
     },
